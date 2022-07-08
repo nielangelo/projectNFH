@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Slideshow">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:fontFamily="cursive"
+        android:text="Gallery"
+        android:textColor="#df03082b"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:src="@drawable/logoo" />
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/s1"
+                    tools:ignore="MissingClass" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/s2"
+                    tools:ignore="MissingClass" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/s3"
+                    tools:ignore="MissingClass" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/s4"
+                    tools:ignore="MissingClass" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="25dp"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="250dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="200dp"
+                            android:background="@drawable/t1"
+                            tools:ignore="MissingClass" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="250dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="200dp"
+                            android:background="@drawable/t2"
+                            tools:ignore="MissingClass" />
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="200dp"
+                            android:background="@drawable/u1"
+                            tools:ignore="MissingClass" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="250dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="200dp"
+                            android:background="@drawable/t3"
+                            tools:ignore="MissingClass" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="250dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="200dp"
+                            android:background="@drawable/t4"
+                            tools:ignore="MissingClass" />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="25dp"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="200dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/u1"
+                    tools:ignore="MissingClass" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/u2"
+                    tools:ignore="MissingClass" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/u3"
+                    tools:ignore="MissingClass" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="25dp"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="200dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+                    <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/v1"
+                    tools:ignore="MissingClass" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/v2"
+                    tools:ignore="MissingClass" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/v3"
+                    tools:ignore="MissingClass" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="50dp"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="200dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/w1"
+                        tools:ignore="MissingClass" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="270dp"
+                    android:layout_height="250dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/w2"
+                        tools:ignore="MissingClass" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="270dp"
+                    android:layout_height="250dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/w3"
+                        tools:ignore="MissingClass" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="270dp"
+                    android:layout_height="250dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/w4"
+                        tools:ignore="MissingClass" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

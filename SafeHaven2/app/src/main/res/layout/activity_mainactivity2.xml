@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".Mainactivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/logoo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="             Navalta Funeral Homes"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:textStyle="italic"/>
+
+
+
+
+    </LinearLayout>
+     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="40dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/gradient4"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/caskets"
+                        android:layout_width="130dp"
+                        android:layout_height="110dp"
+                        android:background="@drawable/casket"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caskets"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="40dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/gradient4"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/nissan"
+                        android:layout_width="130dp"
+                        android:layout_height="110dp"
+                        android:background="@drawable/nissan"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cars"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="40dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/gradient4"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/map"
+                        android:layout_width="130dp"
+                        android:layout_height="110dp"
+                        android:background="@drawable/pinlocation"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maps"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="40dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/gradient4"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/contact"
+                        android:layout_width="130dp"
+                        android:layout_height="110dp"
+                        android:background="@drawable/contactperson"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contacts"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </GridLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/gradient4"
+                android:gravity="center">
+
+                <ImageView
+                    android:onClick="gotoscroll"
+                    android:id="@+id/logo"
+                    android:layout_width="130dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/logoo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gallery"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="12dp"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbg"
+            android:elevation="10dp"
+            android:text="Logout"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+        </LinearLayout>
+        </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>

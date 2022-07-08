@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dove" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CASKETS"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#df03082b"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"/>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/column1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient4"
+                    android:elevation="5dp"
+                    android:gravity="center_horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="0dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:orientation="vertical">
+
+
+                            // Insert Image here
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="150dp"
+                                android:layout_height="140dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/img2" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/detail1"
+                                    android:layout_width="110dp"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/buttonbg"
+                                    android:text="Details"
+                                    android:textColor="@color/black"
+                                    android:textSize="10sp"
+                                    android:layout_marginBottom="7dp"
+                                    tools:ignore="TouchTargetSizeCheck" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient4"
+                    android:elevation="5dp"
+                    android:gravity="center_horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="0dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:orientation="vertical">
+
+
+                            // Insert Image here
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="150dp"
+                                android:layout_height="140dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/b3" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/detail2"
+                                    android:layout_width="110dp"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/buttonbg"
+                                    android:text="Details"
+                                    android:textColor="@color/black"
+                                    android:textSize="10sp"
+                                    android:layout_marginBottom="7dp"
+                                    tools:ignore="TouchTargetSizeCheck" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/column2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient4"
+                    android:elevation="5dp"
+                    android:gravity="center_horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="0dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:orientation="vertical">
+
+
+                            // Insert Image here
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="150dp"
+                                android:layout_height="140dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/c3" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/detail3"
+                                    android:layout_width="110dp"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/buttonbg"
+                                    android:text="Details"
+                                    android:textColor="@color/black"
+                                    android:textSize="10sp"
+                                    android:layout_marginBottom="7dp"
+                                    tools:ignore="TouchTargetSizeCheck" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient4"
+                    android:elevation="5dp"
+                    android:gravity="center_horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="0dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:orientation="vertical">
+
+
+                            // Insert Image here
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="150dp"
+                                android:layout_height="140dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/d2" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/detail4"
+                                    android:layout_width="110dp"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/buttonbg"
+                                    android:text="Details"
+                                    android:textColor="@color/black"
+                                    android:textSize="10sp"
+                                    android:layout_marginBottom="7dp"
+                                    tools:ignore="TouchTargetSizeCheck" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/column3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient4"
+                    android:elevation="5dp"
+                    android:gravity="center_horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="0dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:orientation="vertical">
+
+
+                            // Insert Image here
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="150dp"
+                                android:layout_height="140dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/e3" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/detail5"
+                                    android:layout_width="110dp"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/buttonbg"
+                                    android:text="Details"
+                                    android:textColor="@color/black"
+                                    android:textSize="10sp"
+                                    android:layout_marginBottom="7dp"
+                                    tools:ignore="TouchTargetSizeCheck" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient4"
+                    android:elevation="5dp"
+                    android:gravity="center_horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="0dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:orientation="vertical">
+
+
+                            // Insert Image here
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="150dp"
+                                android:layout_height="140dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/f3" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/detail6"
+                                    android:layout_width="110dp"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/buttonbg"
+                                    android:text="Details"
+                                    android:textColor="@color/black"
+                                    android:textSize="10sp"
+                                    android:layout_marginBottom="7dp"
+                                    tools:ignore="TouchTargetSizeCheck" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

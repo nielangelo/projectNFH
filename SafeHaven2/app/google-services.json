@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457262775013",
+    "project_id": "safe-haven-e7563",
+    "storage_bucket": "safe-haven-e7563.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457262775013:android:6c8886cb4b7052ea74f20c",
+        "android_client_info": {
+          "package_name": "com.example.safe_haven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457262775013-414gdnb6b27bbq0br2ga8lnslmc7kg1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOvOJAj65qPz791MwQe6ZkWMNUTCNCrag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457262775013-414gdnb6b27bbq0br2ga8lnslmc7kg1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
